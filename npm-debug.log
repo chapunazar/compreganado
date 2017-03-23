@@ -1,0 +1,263 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\chapu\\laragon\\bin\\nodejs\\node.exe',
+1 verbose cli   'C:\\chapu\\laragon\\bin\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--no-bin-links' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData axios
+20 silly mapToRegistry name axios
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'axios',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'axios',
+23 silly mapToRegistry   name: 'axios',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/axios
+25 silly fetchNamedPackageData bootstrap-sass
+26 silly mapToRegistry name bootstrap-sass
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'bootstrap-sass',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'bootstrap-sass',
+29 silly mapToRegistry   name: 'bootstrap-sass',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-sass
+31 silly fetchNamedPackageData jquery
+32 silly mapToRegistry name jquery
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'jquery',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'jquery',
+35 silly mapToRegistry   name: 'jquery',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/jquery
+37 silly fetchNamedPackageData laravel-mix
+38 silly mapToRegistry name laravel-mix
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'laravel-mix',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'laravel-mix',
+41 silly mapToRegistry   name: 'laravel-mix',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/laravel-mix
+43 silly fetchNamedPackageData lodash
+44 silly mapToRegistry name lodash
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'lodash',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'lodash',
+47 silly mapToRegistry   name: 'lodash',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/lodash
+49 silly fetchNamedPackageData vue
+50 silly mapToRegistry name vue
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'vue',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'vue',
+53 silly mapToRegistry   name: 'vue',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/vue
+55 verbose request uri https://registry.npmjs.org/axios
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 16:04:02
+58 verbose request id 443445e36bad6417
+59 http request GET https://registry.npmjs.org/axios
+60 verbose request uri https://registry.npmjs.org/bootstrap-sass
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 16:04:02
+63 http request GET https://registry.npmjs.org/bootstrap-sass
+64 verbose request uri https://registry.npmjs.org/jquery
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 16:04:02
+67 http request GET https://registry.npmjs.org/jquery
+68 verbose request uri https://registry.npmjs.org/laravel-mix
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 16:04:02
+71 http request GET https://registry.npmjs.org/laravel-mix
+72 verbose request uri https://registry.npmjs.org/lodash
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 16:04:02
+75 http request GET https://registry.npmjs.org/lodash
+76 verbose request uri https://registry.npmjs.org/vue
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 16:04:02
+79 http request GET https://registry.npmjs.org/vue
+80 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+81 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+82 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+83 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+84 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+85 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+86 info attempt registry request try #2 at 16:04:33
+87 http request GET https://registry.npmjs.org/laravel-mix
+88 info attempt registry request try #2 at 16:04:33
+89 http request GET https://registry.npmjs.org/vue
+90 info attempt registry request try #2 at 16:04:33
+91 http request GET https://registry.npmjs.org/bootstrap-sass
+92 info attempt registry request try #2 at 16:04:33
+93 http request GET https://registry.npmjs.org/axios
+94 info attempt registry request try #2 at 16:04:33
+95 http request GET https://registry.npmjs.org/jquery
+96 info attempt registry request try #2 at 16:04:33
+97 http request GET https://registry.npmjs.org/lodash
+98 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+99 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+100 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+101 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+102 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+103 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.44.162:443
+104 info attempt registry request try #3 at 16:05:54
+105 http request GET https://registry.npmjs.org/jquery
+106 info attempt registry request try #3 at 16:05:54
+107 http request GET https://registry.npmjs.org/bootstrap-sass
+108 info attempt registry request try #3 at 16:05:54
+109 http request GET https://registry.npmjs.org/axios
+110 info attempt registry request try #3 at 16:05:54
+111 http request GET https://registry.npmjs.org/vue
+112 info attempt registry request try #3 at 16:05:54
+113 http request GET https://registry.npmjs.org/laravel-mix
+114 info attempt registry request try #3 at 16:05:54
+115 http request GET https://registry.npmjs.org/lodash
+116 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.44.162:443
+116 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+116 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+116 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+116 silly fetchPackageMetaData  error for lodash@^4.16.2 { Error: connect ETIMEDOUT 151.101.44.162:443
+116 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+116 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+116 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+116 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+116 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+116 silly fetchPackageMetaData   syscall: 'connect',
+116 silly fetchPackageMetaData   address: '151.101.44.162',
+116 silly fetchPackageMetaData   port: 443 }
+117 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.44.162:443
+117 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+117 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+117 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+117 silly fetchPackageMetaData  error for jquery@^3.1.0 { Error: connect ETIMEDOUT 151.101.44.162:443
+117 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+117 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+117 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+117 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+117 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+117 silly fetchPackageMetaData   syscall: 'connect',
+117 silly fetchPackageMetaData   address: '151.101.44.162',
+117 silly fetchPackageMetaData   port: 443 }
+118 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.44.162:443
+118 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+118 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+118 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+118 silly fetchPackageMetaData  error for laravel-mix@^0.6.0 { Error: connect ETIMEDOUT 151.101.44.162:443
+118 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+118 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+118 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+118 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+118 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+118 silly fetchPackageMetaData   syscall: 'connect',
+118 silly fetchPackageMetaData   address: '151.101.44.162',
+118 silly fetchPackageMetaData   port: 443 }
+119 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.44.162:443
+119 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+119 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+119 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+119 silly fetchPackageMetaData  error for axios@^0.15.2 { Error: connect ETIMEDOUT 151.101.44.162:443
+119 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+119 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+119 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+119 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+119 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+119 silly fetchPackageMetaData   syscall: 'connect',
+119 silly fetchPackageMetaData   address: '151.101.44.162',
+119 silly fetchPackageMetaData   port: 443 }
+120 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.44.162:443
+120 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+120 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+120 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+120 silly fetchPackageMetaData  error for vue@^2.0.1 { Error: connect ETIMEDOUT 151.101.44.162:443
+120 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+120 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+120 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+120 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+120 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+120 silly fetchPackageMetaData   syscall: 'connect',
+120 silly fetchPackageMetaData   address: '151.101.44.162',
+120 silly fetchPackageMetaData   port: 443 }
+121 silly fetchPackageMetaData Error: connect ETIMEDOUT 151.101.44.162:443
+121 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+121 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+121 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+121 silly fetchPackageMetaData  error for bootstrap-sass@^3.3.7 { Error: connect ETIMEDOUT 151.101.44.162:443
+121 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1022:11)
+121 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1045:20)
+121 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+121 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+121 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+121 silly fetchPackageMetaData   syscall: 'connect',
+121 silly fetchPackageMetaData   address: '151.101.44.162',
+121 silly fetchPackageMetaData   port: 443 }
+122 silly rollbackFailedOptional Starting
+123 silly rollbackFailedOptional Finishing
+124 silly runTopLevelLifecycles Finishing
+125 silly install printInstalled
+126 verbose stack Error: connect ETIMEDOUT 151.101.44.162:443
+126 verbose stack     at Object.exports._errnoException (util.js:1022:11)
+126 verbose stack     at exports._exceptionWithHostPort (util.js:1045:20)
+126 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1087:14)
+127 verbose cwd C:\chapu\laragon\www\compreganado
+128 error Windows_NT 6.1.7601
+129 error argv "C:\\chapu\\laragon\\bin\\nodejs\\node.exe" "C:\\chapu\\laragon\\bin\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--no-bin-links"
+130 error node v6.9.5
+131 error npm  v3.10.10
+132 error code ETIMEDOUT
+133 error errno ETIMEDOUT
+134 error syscall connect
+135 error network connect ETIMEDOUT 151.101.44.162:443
+136 error network This is most likely not a problem with npm itself
+136 error network and is related to network connectivity.
+136 error network In most cases you are behind a proxy or have bad network settings.
+136 error network
+136 error network If you are behind a proxy, please make sure that the
+136 error network 'proxy' config is set properly.  See: 'npm help config'
+137 verbose exit [ 1, true ]
