@@ -14,7 +14,7 @@ class AddColumnExpirationDateToListings extends Migration
     public function up()
     {
         Schema::table('listings', function (Blueprint $table) {
-            $table->timestamp('expiration_date');
+            $table->timestamp('expiration_date')->nullable();
         });
     }
 

@@ -69,7 +69,10 @@ class ListingsController extends Controller
         $filterTxt = "";
         return view('console.listings.index',compact('listings','filterTxt'));
     }
-    
+
+
+    /////////////////////////////////////////////////////////////////////////////////////////
+
     public function show(Listing $listing)
     {
         if(ListingsController::canUserAccessListing(auth()->user()->id, $listing))
@@ -79,8 +82,6 @@ class ListingsController extends Controller
     }
 
     
-    /////////////////////////////////////////////////////////////////////////////////////////
-
     public function create()
     {
         //List of payment methods

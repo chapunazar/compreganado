@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@include('layouts.navdetail')
+@section('nav')
+    @include('layouts.navdetail')
+@endsection
 
 @section('content')
 <div id="content">
