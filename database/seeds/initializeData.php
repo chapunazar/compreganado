@@ -273,7 +273,7 @@ class initializeData extends Seeder
 		            'id' => 1,
 		            'name' => 'admin',
 					'email' => 'manuel@nazaranchorena.com.ar',
-					'password' => bcrypt('admin'),
+					'password' => bcrypt('1234'),
 					'admin' => 1,
 					'created_at' => Carbon::now(),
 					'updated_at' => Carbon::now(),

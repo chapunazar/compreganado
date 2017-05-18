@@ -36,7 +36,7 @@
                         @foreach($listings as $listing)
                            <!-- <div class="col-lg-4"> -->
 
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-6 col-lg-4">
                             <div class="card h-100" style="background-color: transparent;border-color: rgba(255, 255, 255, 0.2);">
 
 
